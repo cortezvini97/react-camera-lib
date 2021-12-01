@@ -27,9 +27,6 @@ export default {
             exports: "named",
             sourcemap: true,
             strict: false,
-        },
-        {
-            file: "dist/styles.css"
         }
     ],
     plugins: (env.mode == "development") ? dev : prod,
