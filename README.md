@@ -58,7 +58,7 @@ ReactDOM.render(<App />, document.getElementById("root"))
 
 ```
 
-### Example II - uploadImage (Typescript)
+### Example II - upload Image (Typescript)
 
 [Example II](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/typescript/Example2.tsx)
 
@@ -131,7 +131,7 @@ const App = ()=>
 ReactDOM.render(<App />, document.getElementById("root"))
 ```
 
-### Example II - uploadImage (Javascript)
+### Example II - upload Image (Javascript)
 
 [Example II](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/javascript/Example2.jsx)
 
