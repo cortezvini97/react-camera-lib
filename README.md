@@ -4,7 +4,7 @@ Webcam component for React.
 
 ## Licence
 
-MIT [LICENCE](https://github.com/cortezvini97/react-camera-lib/LICENCE)
+MIT [LICENCE](https://github.com/cortezvini97/react-camera-lib/blob/master/LICENCE)
 
 ## Init
 
@@ -20,7 +20,7 @@ MIT [LICENCE](https://github.com/cortezvini97/react-camera-lib/LICENCE)
 
 ### Example I - GetImageDataURI (Typescript)
 
-MIT [Example I](https://github.com/cortezvini97/react-camera-lib/example/src/examples/typescript/Example1.tsx)
+[Example I](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/typescript/Example1.tsx)
 
 ```TSX
 import React, {useRef, useCallback} from 'react';
@@ -60,7 +60,7 @@ ReactDOM.render(<App />, document.getElementById("root"))
 
 ### Example II - uploadImage (Typescript)
 
-MIT [Example II](https://github.com/cortezvini97/react-camera-lib/example/src/examples/typescript/Example2.tsx)
+[Example II](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/typescript/Example2.tsx)
 
 ```TSX
 import React, {useRef, useCallback} from 'react';
@@ -99,7 +99,7 @@ ReactDOM.render(<App />, document.getElementById("root"))
 
 ### Example I - GetImageDataURI (Javascript)
 
-MIT [Example I](https://github.com/cortezvini97/react-camera-lib/example/src/examples/javascript/Example1.tsx)
+[Example I](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/javascript/Example1.jsx)
 
 ```JSX
 import React, {useRef, useCallback} from 'react';
@@ -133,7 +133,7 @@ ReactDOM.render(<App />, document.getElementById("root"))
 
 ### Example II - uploadImage (Javascript)
 
-MIT [Example II](https://github.com/cortezvini97/react-camera-lib/example/src/examples/javascript/Example2.tsx)
+[Example II](https://github.com/cortezvini97/react-camera-lib/blob/master/example/src/examples/javascript/Example2.jsx)
 
 ```JSX
 import React, {useRef, useCallback} from 'react';
