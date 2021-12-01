@@ -4,7 +4,7 @@ Webcam component for React.
 
 ## Licence
 
-MIT [LICENCE](https://github.com/cortezvini97/react-camera-lib/blob/master/LICENCE)
+[MIT LICENCE](https://github.com/cortezvini97/react-camera-lib/blob/master/LICENCE)
 
 ## Init
 
