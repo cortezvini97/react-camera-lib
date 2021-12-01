@@ -1,0 +1,61 @@
+{
+  "name": "react-camera-lib",
+  "version": "1.0.0",
+  "author": "vinicortez <cortezvinicius881@gmail.com>",
+  "license": "MIT",
+  "description": "Webcam component for React.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start:rollup": "rollup -w -c",
+    "start:example":"cd example && yarn start",
+    "build": "rollup -c",
+    "start": "npm-run-all --parallel start:rollup start:example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezvini97/react-camera-lib.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "react-component",
+    "webcam",
+    "camera",
+    "react-camera-lib"
+  ],
+  "directories": {
+    "examples": "examples"
+  },
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/cortezvini97/react-camera-lib/issues"
+  },
+  "homepage": "https://github.com/cortezvini97/react-camera-lib#readme",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "dotenv": "^10.0.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.60.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.16",
+    "styled-components": "^5.3.3"
+  }
+}
