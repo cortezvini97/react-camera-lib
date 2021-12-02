@@ -44,6 +44,13 @@ export default class Camera extends React.Component<CameraProps, States>
             audio:audioConstraints
         } 
 
+
+        if(navigator.mediaDevices == null)
+        {
+            this.loadVideo(true)
+            return;
+        }
+
         navigator.mediaDevices.getUserMedia(constraints).then(stream=>
         {
             this.stream = stream;
